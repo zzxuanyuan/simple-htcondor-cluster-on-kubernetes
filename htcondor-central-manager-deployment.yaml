@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: htcondor-central-manager
-        image: alahiff/htcondor-central-manager:latest
+        image: zzxuanyuan/htcondor-central-manager:github
         resources:
           requests:
             memory: "1.0Gi"

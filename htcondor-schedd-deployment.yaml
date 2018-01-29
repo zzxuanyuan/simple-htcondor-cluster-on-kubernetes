@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: htcondor-schedd
-        image: alahiff/htcondor-schedd:latest
+        image: zzxuanyuan/htcondor-schedd:github
         resources:
           requests:
             memory: "1.0Gi"

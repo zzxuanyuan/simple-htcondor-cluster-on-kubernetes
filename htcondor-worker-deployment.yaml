@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: htcondor-worker
-        image: alahiff/htcondor-worker:latest
+        image: zzxuanyuan/htcondor-worker:github
         resources:
           requests:
             memory: "1.0Gi"
